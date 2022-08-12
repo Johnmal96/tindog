@@ -188,9 +188,11 @@ a:link {
         transform: rotate(0);
         position: static;
     }
+}
 
+
+@media (max-width: 991px) {
     #title .container-fluid {
         text-align: center;
     }
-
 }
