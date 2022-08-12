@@ -43,10 +43,6 @@ p {
     right: 20%;
 }
 
-.container-fluid {
-    padding: 7% 15%;
-}
-
 
 /* Sections */
 
@@ -82,11 +78,16 @@ p {
     font-size: 2.5rem;
 }
 
+.container-fluid {
+    padding: 7% 15%;
+}
+
 
 /*Title Section*/
 
 #title .container-fluid {
     padding: 3% 15% 13%;
+    text-align: left;
 }
 
 /* Featured section */
@@ -188,7 +189,7 @@ a:link {
         position: static;
     }
 
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
 
